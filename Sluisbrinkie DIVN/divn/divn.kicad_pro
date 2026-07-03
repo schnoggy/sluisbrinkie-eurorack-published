@@ -125,7 +125,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -160,8 +160,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -212,6 +212,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.5,
         1.0
       ],
@@ -245,6 +246,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -664,7 +669,7 @@
         "uuid": "f92b99d4-d9d4-4e51-91f0-99f323318de9"
       }
     ],
-    "used_designators": "#PWR6,J5",
+    "used_designators": "H1,#FLG1-3",
     "variants": []
   },
   "sheets": [
