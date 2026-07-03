@@ -289,7 +289,7 @@
 		(uuid "4bc054fa-1a02-45e1-8a86-a59fda706543")
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/KiCad_library/Locrius_KiCad.3dshapes/TYPE-C-SMD_HX-TYPE-C-16P-180-LT-H9.3-VERT-SOCKET.step"
+	(model "C:/GitHub/KiCad_library/Locrius_KiCad.3dshapes/TYPE-C-TH_16PLC-H10.0.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
